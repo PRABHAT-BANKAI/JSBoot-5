@@ -40,29 +40,16 @@
 
 12. Write a JavaScript code snippet that uses `console.log` to display the values of variables `a = 5`, `b = 10`, and the result of their addition.
 
-## `if` Statement
+13. Write a JavaScript program to display the current day and time in the following format.  
+Sample Output : Today is : Tuesday.
+Current time is : 10 PM : 30 : 38
 
-13. Write a JavaScript code snippet that checks if a given number is positive. Use an `if` statement and display the result using `console.log`.
+14. Write a JavaScript program to print the current window contents.  
 
-14. Given the variable `temperature = 30`, write an `if` statement that checks if the temperature is above 25. If true, log `"It's a hot day"` to the console.
 
-## Nested `if-else` Statement
+15. Write a JavaScript program to get the current date.  
+Expected Output :
+mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy.
 
-15.  Write a JavaScript code snippet that checks if a number is positive, negative, or zero using nested `if-else` statements. Display the appropriate message using `console.log`.
 
-16. Write a JavaScript code using nested `if-else` statements to determine the grade of a student based on the following conditions:
-    - Grade "A" if score is 90 or above
-    - Grade "B" if score is between 80 and 89
-    - Grade "C" if score is between 70 and 79
-    - Grade "D" if score is below 70  
-  Assume the score is 75.
-
-## Combination Questions
-
-17.  Write a JavaScript code snippet that uses arithmetic, comparison, and logical operators to determine if a number is both even and greater than 10. Display the result using `console.log`.
-
-18. Write a code snippet that assigns a value to a variable `marks`, then checks if the marks are greater than or equal to 75. If true, assign "Passed" to another variable `result`, otherwise assign "Failed". Display `result` using `innerHTML`.
-
-19. Given `num1 = 8` and `num2 = 3`, use a combination of arithmetic, assignment, and comparison operators to find if `num1` is a multiple of `num2` after incrementing `num1` by 1. Log the result.
-
-20. Write a JavaScript code snippet that checks if a given variable `age` is either less than 18 or greater than 60 using logical operators, and displays the message `"Not eligible"` using `console.log`. If neither condition is met, display `"Eligible"`.
+16. Write a JavaScript program to find the area of a triangle where three sides are 5, 6, 7.
