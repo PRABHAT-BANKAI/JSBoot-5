@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Input</h1>
+    <p id="text"></p>
+    <button id="btn">enter you promt</button>
+
+    <script>
+      let button = document.getElementById("btn");
+      let text = document.getElementById("text");
+
+      button.addEventListener("click", () => {
+        console.log("hi")
+        let result = prompt();
+        text.innerHTML = result;
+      });
+    </script>
+  </body>
+</html>
