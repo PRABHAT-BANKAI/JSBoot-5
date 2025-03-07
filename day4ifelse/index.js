@@ -41,11 +41,11 @@ if (email == "asdf@gmail.com" && password == "1234") {
   console.log("Invalid Credentials");
 }
 
-Math.floor;
-Math.ceil;
-Math.round;
-Math.sqrt(16);
-Math.max(12, 3, 4, 5, 6, 7);
+// Math.floor;
+// Math.ceil;
+// Math.round;
+// Math.sqrt(16);
+// Math.max(12, 3, 4, 5, 6, 7);
 
 let min = Math.min(12, 3, 4, 5, 6, 7);
 
