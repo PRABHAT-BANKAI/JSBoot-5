@@ -74,3 +74,19 @@ storeInner();
 
 
 // Closure concepts will continue tomorrow 
+
+
+// revision
+console.log("10"+5)
+console.log("1,2,3"== [1,2,3])//.join()
+
+
+let string = [1,2,3]
+
+string = string.join("+")
+console.log(string)
+
+let  number= +"12345679"
+console.log( number )
+
+console.log(123 + +"1234")
