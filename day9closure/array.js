@@ -1,5 +1,6 @@
 // array store multiple data types in a single variable
-//Push ,Pop, shift, upshifts, Splice, map
+//Push ,Pop, shift, upshifts, Splice
+// ,slice map
 //  ,filter, foreach, indexof, findindex ,includes, every, some
 let arr = ["hello", 1, false, undefined, "1234", null];
 
