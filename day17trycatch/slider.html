@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>slider automatic</h1>
+    <img id="image" src="" alt=""  height="200px"/>
+
+    <script>
+      let imageArr = [
+        "https://mobirise.com/extensions/cryptom5/trade-agency/assets/images/features4.jpg",
+        "https://mobirise.com/extensions/cryptom5/trade-agency/assets/images/team1.jpg",
+        "https://mobirise.com/extensions/cryptom5/trade-agency/assets/images/team2.jpg",
+      ];
+      let image = document.querySelector("#image");
+      let count = 0;
+
+  let key =    setInterval(() => {
+    image.src = imageArr[count];
+        if(count == imageArr.length-1){
+          // count = 0;
+          clearInterval(key);
+        }
+        else{
+          count++;
+        }
+      
+      
+      }, 2000);
+
+    </script>
+  </body>
+</html>
